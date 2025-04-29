@@ -3,38 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>BBC</title>
+  <link rel="stylesheet" href="index.css"/>
 </head>
-<body>
-  <p>BBC</p>
-  <button>Sign in</button>
-  <nav>
-    <button>Home</button>
-    <button>News</button>
-    <button>Sport</button>
-    <button>Worklife</button>
-    <button>Travel</button>
-    <button>Future</button>
-    <button>Culture</button>
-    <button>More</button>
-    <input placeholder="Search"/>
+<body clearfix>
+  <p id="sign">BBC</p>
+  <button id="signIn">Sign in</button>
+  <nav clearfix>
+    <button id="spacedNav"></buttonclass></button>
+    <button class="navButton">Home</button>
+    <button class="navButton">News</button>
+    <button class="navButton">Sport</button>
+    <button class="navButton">Worklife</button>
+    <button class="navButton">Travel</button>
+    <button class="navButton">Future</button>
+    <button class="navButton">Culture</button>
+    <select class="navButton">
+      <option>More</option>
+    </select>
+    <input id="search" placeholder="Search"/>
   </nav>
-  <div>
-  <h1>Welcome to BBC.com</h1>
-  <p>Thursday, 13 August</p>
+  <div class="clearfix headingCont">
+   <h1>Welcome to BBC.com</h1>
+   <p>Thursday, 13 August</p>
   </div>
-  <section>
-    <img alt="Israel and UAE strike historiuc peace deal"/>
-    <img alt="Americans, go home: Tension at Canada-US border"/>
-    <img alt="How will the world vaccinate seven billion people?"/>
-    <img alt="The online 'productivity gyms'"/>
-    <img alt="The folk singer murdered for his music"/>
+  <section id="suggested" class="clearfix">
+    <article id="topArt">
+      <h2>Israel and EAE strike historic peace deal</h2>
+      <p>Israel and the UAE agree to normalize relations, marking the third Israel-Arab peace deal.</p>
+      <h5>MIDDLE EAST</h5>
+    </article>
+    <article>
+      <h3>Americans, go home: Tension at Canadian-US border</h3>
+      <h5>CANADA</h5>
+  </article>
+  <article>
+    <h3>How will the world vaccinate seven billion people?</h3>
+    <h5>HEALTH</h5>
+</article>
+<article>
+  <h3>The online 'productivity gyms'</h3>
+  <h5>WORKLIFE</h5>
+</article>
+<article>
+  <h3>The folk singer murdered for his music</h3>
+  <h5>CULTURE</h5>
+</article>
   </section>
-  <section>
-    <p>News</p>
-    <img alt="Biden and Harris say Trump has left US 'in tatters'"/>
-    <img alt="Women form 'solidarity chains' in Belarus protests"/>
-    <img alt="Trump says low-pressure shower heads won't wash"/>
+  <section id="news" class="clearfix">
+    <header>News</header>
+    <article>
+      <h4>Biden and Harris say Trump has left the US 'in tatters'</h4>
+      <p>Joe Biden and running mate Kamala Haris call President Donald Trump a "whininh" incompetent leader.</p>
+      <h5>US ELECTION</h5>
+    </article>
+    <article>
+      <h4>Women form 'solodarity chains' in Belarus protests</h4>
+      <p>Women take to the streets of Minisk dressed in white as they demand an end to police brutality.</p>
+      <h5>EUROPE</h5>
+    </article>
+    <article>
+      <h4>Trump says low-pressre shower heads won't wash</h4>
+      <p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
+      <h5>US & CANADA</h5>
+    </article>
   </section>
 </body>
 </html>
